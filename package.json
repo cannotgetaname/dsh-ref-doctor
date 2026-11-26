@@ -3,15 +3,47 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Audit a manuscript's references: parse .bib/.tex/numbered text, verify each entry against Crossref, and emit GB/T 7714 lines.",
-  "keywords": ["dsh", "plugin", "references", "bibtex", "crossref", "gb7714", "thesis"],
+  "keywords": [
+    "dsh",
+    "plugin",
+    "references",
+    "bibtex",
+    "crossref",
+    "gb7714",
+    "thesis"
+  ],
   "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
     "./icon": "./icon.svg"
   },
-  "files": ["index.js", "lib", "cordis.patch.yml", "locale", "icon.svg", "README.md", "docs"],
-  "engines": { "node": ">=22" },
-  "scripts": { "test": "node test/run.mjs" },
-  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "docs"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cannotgetaname/dsh-ref-doctor.git"
+  },
+  "homepage": "https://github.com/cannotgetaname/dsh-ref-doctor#readme",
+  "bugs": {
+    "url": "https://github.com/cannotgetaname/dsh-ref-doctor/issues"
+  }
 }
