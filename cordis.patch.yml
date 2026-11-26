@@ -1,0 +1,4 @@
+- insert:
+    - id: ref-doctor
+      name: dsh-ref-doctor
+      config: {}

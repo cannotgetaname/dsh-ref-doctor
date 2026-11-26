@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "参考文献体检",
+    "description": "解析 .bib / LaTeX / 编号引文，逐条与 Crossref 核对，并输出 GB/T 7714 格式，投稿或交稿前先体检一遍。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

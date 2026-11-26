@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CARSI literature browser">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6fdd"/>
+      <stop offset="1" stop-color="#123b7a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#g)"/>
+  <path d="M14 20a4 4 0 0 1 4-4h10v30H18a4 4 0 0 1-4-4z" fill="#eaf1ff"/>
+  <path d="M50 20a4 4 0 0 0-4-4H36v30h10a4 4 0 0 0 4-4z" fill="#cfe0ff"/>
+  <path d="M32 16v30" stroke="#123b7a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M22 26h6M22 32h6M36 26h6M36 32h6" stroke="#2f6fdd" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="32" cy="47" r="6" fill="#ffd166" stroke="#123b7a" stroke-width="2"/>
+  <path d="M32 44v3" stroke="#123b7a" stroke-width="2" stroke-linecap="round"/>
+</svg>

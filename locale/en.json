@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Reference doctor",
+    "description": "Audit a manuscript's reference list against Crossref and emit GB/T 7714 entries, parsing .bib, LaTeX and numbered citations.",
+    "detail": "docs/DETAIL.md"
+  }
+}
